@@ -1,0 +1,330 @@
+body {
+	font-family: 'Secular One';
+	margin: 0;
+	background-color: #27C241;
+	font-weight: 800;
+	
+	/* For the footer */
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	width: 100%;
+	overflow-x: hidden; 
+	
+}
+
+
+footer {
+	font-family: 'Secular One';
+	background-color: rgb(0,170,68);
+	color: white;
+	padding: 50px;
+	width: 100%;
+	box-shadow: 0 -1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	padding: 4em;
+	margin-top: auto;
+		
+	
+	
+}
+
+main {
+	margin: 50px;
+	
+	
+}	
+
+.general {
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+/* Nav Bard */
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	
+	
+		
+}
+
+header {
+  font-family: 'Secular One';
+  background-color: rgb(0,170,68);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  vertical-align: center;
+  color: white;
+  
+}
+
+nav {
+  float: right;
+
+  
+}
+
+nav ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 50px;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  vertical-align: center;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav ul {
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+
+
+
+/* Video Highlights */
+
+.videos iframe{
+	height: 245px;
+	width: 350px;
+}
+
+.video {
+	display: inline-block;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	
+}
+
+.video h3 {
+	padding-top: 20px;
+}
+
+.videos {
+	background-color: #27C241;   /*1CC962*/ 
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	color: white;
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.videos h2 {
+	padding-top: 25px;
+	padding-bottom: 40px;
+	text-align: center;
+	margin: 0;
+	font-size: 28px;
+}
+
+/* Carousel */
+
+.item h3 {
+	font-family: 'Secular One';
+	font-size: 35px;
+	-webkit-text-stroke: 0.75px black;
+}
+
+.item p {
+	font-family: 'Secular One';
+	font-size: 25px;
+	-webkit-text-stroke: 0.15px black;
+}
+
+.carousel {
+	
+	height: 378px;
+	width: 672px;
+	margin: 0 auto;
+	text-align: center;
+	
+	
+}
+
+
+
+.item img {
+    height: 378px !important;
+    width: 672px !important;
+	
+}
+
+.containergal {
+	
+	font-family: 'Secular One';
+	display: inline-block;
+	background-color: #27C241;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	color: white;
+	padding-bottom: 100px;
+	
+	
+}
+
+
+.containergal h2{
+	font-family: 'Secular One';
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	padding: 40px 0px;
+		
+}
+
+.carousel-inner {
+	
+box-shadow: 25px 25px rgb(0,170,68);
+
+}
+
+/* World Wide of Sports Audio */
+
+.worldwideofsports {
+	display: inline;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: white;
+	margin: 50px 100px;
+	
+	border: white 10px solid;
+	border-radius: 50px;
+}
+
+.worldwideofsports img {
+	padding-right: 20px;
+	
+}
+
+.worldwideofsports audio {
+	padding-left: 20px;
+	
+	
+}
+
+/* Marnus Sledging Video */
+
+.marnusvideo {
+	text-align: center;
+	padding-bottom: 100px;
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.marnusvideo h2 {
+	font-size: 28px;
+	color: white;
+}
+
+.marnusvideo video {
+	  box-shadow: 25px 25px rgb(0,170,68);
+}
+
+/* Live Scores CSS */
+
+.live {
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	box-shadow: 25px 25px rgb(0,170,68);
+	
+}
+
+.general h2 {
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* Login Page */
+
+.logincss {
+	color: white;
+	font-family: 'Secular One';	
+	box-shadow: 0 -1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding-bottom: 260px;
+}	
+
+/* Quiz Page */
+
+.quizcss h3, h1 {
+	color: white;
+	font-family: 'Secular One';	
+}
+
+.quizoption {
+	color: white;
+	font-family: 'Secular One';	
+}
+
+.quizecho {
+	font-size: 24px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-family: 'Secular One';	
+	
+	
+}
+
+.quizcss h1 {
+	font-size: 30px;
+}
+
+.quizcss {
+	box-shadow: 0 -1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+ 
+
